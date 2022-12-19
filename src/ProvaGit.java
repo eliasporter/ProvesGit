@@ -6,10 +6,14 @@ public class ProvaGit {
 		
 		int n=0;
 		for (int i = 0; i < 10; i++) {
-			System.out.println(n);
+			Saludar(n);
 			n++;
 		}
 
+	}
+	
+	public static void Saludar (int n) {
+		System.out.println("hola "+n);
 	}
 
 }
