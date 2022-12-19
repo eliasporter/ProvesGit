@@ -13,5 +13,9 @@ public class ProvaGit {
 		}
 
 	}
+	
+	public static void Saludar (int n) {
+		System.out.println("hola "+n);
+	}
 
 }
